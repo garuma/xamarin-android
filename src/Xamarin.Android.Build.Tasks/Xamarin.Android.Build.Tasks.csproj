@@ -109,6 +109,9 @@
     <Reference Include="pdb2mdb.exe">
       <HintPath>..\..\bin\$(Configuration)\lib\xamarin.android\xbuild\Xamarin\Android\pdb2mdb.exe</HintPath>
     </Reference>
+    <Reference Include="Mono.CompilerServices.SymbolWriter.dll">
+      <HintPath>..\..\bin\$(Configuration)\lib\xamarin.android\xbuild\Xamarin\Android\Mono.CompilerServices.SymbolWriter.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(IntermediateOutputPath)Profile.g.cs" />
