@@ -164,8 +164,8 @@ stages:
     workspace:
       clean: all
     steps:
-    - task: DownloadBuildArtifacts@0
-      displayName: 'Download Build Artifacts'
+    - task: DownloadPipelineArtifact@2
+      displayName: Download Pipeline Artifact
       inputs:
         buildType: specific
         project: $(dd.proj.guid)
